@@ -1,21 +1,27 @@
+![govactapp-banner](../images/govactapp-banner-dark.png#gh-dark-mode-only)
+![govactapp-banner](../images/govactapp-banner-light.png#gh-light-mode-only)
+
+Back to [README.md > Get Involved](../README.md#get-involved)
+
 # Privacy Policy
 
-Ice Guard is designed with **privacy-by-design** principles.  
-This document explains what data is collected, how it is processed, and the steps taken to reduce risk to individuals while preserving the platform’s core purpose: public visibility into enforcement activity patterns.
+GovAct is designed with **privacy-by-design** principles.
 
-Ice Guard intentionally minimizes data collection and avoids retaining information that is not strictly necessary for functionality.
+This document explains what data is collected, how it is processed, and what safeguards exist to reduce risk to individuals while preserving the platform’s core purpose: public visibility into patterns of government activity.
+
+GovAct intentionally minimizes data collection and avoids retaining information that is not strictly necessary for functionality.
 
 ---
 
 ## Guiding Principles
 
-Ice Guard’s privacy decisions are guided by the following principles:
+GovAct’s privacy decisions are guided by:
 
 - **Data minimization**: collect only what is needed
 - **Purpose limitation**: data is used only for stated functionality
 - **Safety over precision**: visibility is balanced with harm reduction
 - **Transparency**: data handling logic is open source and auditable
-- **No surveillance**: Ice Guard does not track individuals
+- **No surveillance**: GovAct is designed to observe patterns, not people
 
 ---
 
@@ -36,16 +42,16 @@ Community reports are **user-generated** and **unverified**.
 
 ### Location Data Handling
 
-Location is a core part of Ice Guard’s purpose, but **exact precision is intentionally limited**.
+Location is a core part of GovAct’s purpose, but **exact precision is intentionally limited**.
 
-Ice Guard applies the following safeguards:
+GovAct applies the following safeguards:
 
-- Submitted locations are **normalized to a bounded accuracy range** (typically on the order of hundreds of meters)
+- Submitted locations are normalized to a **bounded accuracy range** (typically on the order of hundreds of meters)
 - Exact coordinates are **not publicly exposed**
 - Precision bounding is applied consistently across all reports
 - The platform does not display exact household-level locations
 
-This approach preserves the ability to observe **where enforcement activity is occurring**, while reducing the risk of identifying specific residences or individuals.
+This approach preserves the ability to observe where activity is occurring, while reducing the risk of identifying specific residences or individuals.
 
 ---
 
@@ -61,7 +67,7 @@ If media is uploaded:
 
 ## Data We Do Not Collect
 
-Ice Guard explicitly does **not** collect or require:
+GovAct explicitly does **not** collect or require:
 
 - Real names
 - Government-issued identification
@@ -71,7 +77,7 @@ Ice Guard explicitly does **not** collect or require:
 - Biometric data
 - Continuous location tracking
 
-Ice Guard does not attempt to identify reporters.
+GovAct does not attempt to identify reporters.
 
 ---
 
@@ -80,7 +86,7 @@ Ice Guard does not attempt to identify reporters.
 If authentication is used:
 
 - Authentication is handled by a third-party identity provider
-- Ice Guard does not store user passwords
+- GovAct does not store user passwords
 - Account identifiers are used only to associate submissions and prevent abuse
 - Public-facing content does not display user identities
 
@@ -88,19 +94,19 @@ If authentication is used:
 
 ## IP Addresses & Logs
 
-Ice Guard may temporarily process IP addresses and request metadata for:
+GovAct may temporarily process IP addresses and request metadata for:
 
 - abuse prevention
 - rate limiting
 - security monitoring
 
-IP addresses are **not displayed publicly** and are not retained longer than necessary for operational security.
+IP addresses are not displayed publicly and are not retained longer than necessary for operational security.
 
 ---
 
 ## Verified Public Events
 
-The **Verified Public Events** timeline contains:
+The Verified Public Events timeline contains:
 
 - Factual summaries of documented incidents
 - General locations
@@ -113,15 +119,15 @@ This data is sourced from publicly available journalism, investigations, or reco
 
 ## Data Sharing
 
-Ice Guard does **not** sell user data.
+GovAct does **not** sell user data.
 
-Data may be shared only in the following circumstances:
+Data may be shared only:
 
-- When required to operate the platform (e.g., hosting, storage providers)
-- When legally required by a valid legal process
-- When responding to security incidents or abuse
+- to operate the platform (e.g., hosting, storage providers)
+- when legally required by valid legal process
+- when responding to security incidents or abuse
 
-Any such sharing is limited to the minimum necessary scope.
+Any sharing is limited to the minimum necessary scope.
 
 ---
 
@@ -136,9 +142,8 @@ Any such sharing is limited to the minimum necessary scope.
 
 ## Open Source Transparency
 
-Ice Guard is fully open source.
+GovAct is fully open source. This includes:
 
-This includes:
 - data handling logic
 - location normalization logic
 - moderation workflows
@@ -150,16 +155,16 @@ Anyone may audit how data is processed by reviewing the source code.
 
 ## Forks and Independent Deployments
 
-Ice Guard is open source and may be deployed independently by third parties.
+GovAct is open source and may be deployed independently by third parties.
 
-This privacy policy applies only to deployments operated by the Ice Guard maintainers.  
+This privacy policy applies only to deployments operated by the GovAct maintainers.  
 Forks or derivative deployments may have different privacy practices.
 
 ---
 
 ## Changes to This Policy
 
-This privacy policy may be updated as the project evolves.
+This policy may be updated as the project evolves.
 
 Material changes will be documented in version control and reflected in the repository history.
 
@@ -167,12 +172,12 @@ Material changes will be documented in version control and reflected in the repo
 
 ## Contact
 
-For questions or concerns regarding privacy or data handling, please refer to the project repository or open a discussion or issue where appropriate.
+For privacy questions or concerns, refer to the project repository or open a discussion/issue where appropriate.
 
 ---
 
 ## Closing Note
 
-Ice Guard exists to make patterns visible without turning individuals into targets.
+GovAct exists to make patterns visible without turning individuals into targets.
 
 Privacy is not an afterthought — it is a core design constraint.

@@ -1,5 +1,5 @@
-![govactapp-banner](./govactapp-banner-dark.png#gh-dark-mode-only)
-![govactapp-banner](./govactapp-banner-light.png#gh-light-mode-only)
+![govactapp-banner](./images/govactapp-banner-dark.png#gh-dark-mode-only)
+![govactapp-banner](./images/govactapp-banner-light.png#gh-light-mode-only)
 **Open infrastructure for documenting government activity**
 
 GovAct is a community-driven, fully open-source platform for documenting and visualizing publicly observable government activity and its real-world impacts — both positive and negative.
@@ -99,8 +99,9 @@ GovAct is an open-source project and welcomes contributions in many forms, inclu
 
 If you’re interested in helping build or maintain the platform, start here:
 
-- **Contributing** → [`CONTRIBUTING.md`](./docs/CONTRIBUTING.md)  
-- **Privacy & data handling** → [`PRIVACY.md`](./dpcs/PRIVACY.md)  
+- **Contributing** → [`CONTRIBUTING.md`](./docs/CONTRIBUTING.md)
+- **Content Policy** → [`CONTENT_POLICY.md`](./docs/CONTENT_POLICY.md)
+- **Privacy & data handling** → [`PRIVACY.md`](./docs/PRIVACY.md)  
 - **Security reporting** → [`SECURITY.md`](./docs/SECURITY.md)  
 - **Code of conduct** → [`CODE_OF_CONDUCT.md`](./docs/CODE_OF_CONDUCT.md)  
 - **Project overview** → [`OVERVIEW.md`](./docs/OVERVIEW.md)  
